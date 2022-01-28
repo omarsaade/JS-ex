@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.container {
+    margin: 20px auto;
+    width: 1200px ;
+}
+
+.container .color-switcher {
+list-style: none;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.container .color-switcher li {
+    width: 20px;
+    height: 20px;
+}
