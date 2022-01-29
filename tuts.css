@@ -12,13 +12,87 @@ body {
     width: 1200px ;
 }
 
-.container .color-switcher {
-list-style: none;
+ .color-switcher {
+list-style:none;
 margin-bottom: 20px;
 text-align: center;
 }
 
-.container .color-switcher li {
-    width: 20px;
-    height: 20px;
+ .color-switcher li {
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    display: inline-block;
+}
+
+.color-switcher li:first-child {
+    background-color: red;
+}
+ .color-switcher li:nth-child(2) {
+background-color: green;
+}
+ .color-switcher li:nth-child(3) {
+background-color:khaki;
+}
+
+.color-switcher li:nth-child(4) {
+background-color: lightslategray;
+}
+
+
+.container h3 {
+    color :red;
+}
+
+.container div {  
+    /* yaane el div li bel container */
+    background-color: red;
+    padding: 20px;
+    color: #FFF;
+}
+
+.red .container h3 {
+    color :red;
+}
+
+.red .container div {  
+    /* yaane el div li bel container */
+    background-color: red;
+    padding: 20px;
+    color: #FFF;
+}
+
+
+.green .container h3 {
+    color :green;
+}
+
+.green .container div {  
+    /* yaane el div li bel container */
+    background-color: green;
+    padding: 20px;
+    color: #FFF;
+}
+
+
+.purple .container h3 {
+    color :khaki;
+}
+
+.purple .container div {  
+    /* yaane el div li bel container */
+    background-color: khaki;
+    padding: 20px;
+    color: #FFF;
+}
+
+.black .container h3 {
+    color :lightslategray;
+}
+
+.black .container div {  
+    /* yaane el div li bel container */
+    background-color: lightslategray;
+    padding: 20px;
+    color: #FFF;
 }
