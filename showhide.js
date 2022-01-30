@@ -37,8 +37,24 @@ myButton.onclick = function () {
 
 }
 
+//////////////////////
 
 
+var myButton = document.getElementById("my-button");
+var myInput = document.getElementById("my-input");
+
+myButton.onclick = function () {
+    'use strict'
+    if (this.textContent === " show Password") {
+        myInput.setAttribute("type", "text");
+        this.textContent = "hide password"
+    }
+    else {
+        myInput.setAttribute("type", "password");
+        this.textContent = "show Password"
+    }
+
+}
 
 
 
