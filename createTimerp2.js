@@ -5,8 +5,8 @@ var countDown = setInterval(secondPass, 1000);
 
 function secondPass() {
 
-    var minutes = Math.floor(seconds / 60),
-        remSeconds = seconds % 60;
+    var minutes = Math.floor(seconds / 60),//1
+        remSeconds = seconds % 60;//58
 
     if (seconds < 10) {
         remSeconds = "0" + remSeconds;
