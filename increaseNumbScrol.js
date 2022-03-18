@@ -4,8 +4,17 @@ let section = document.querySelector(".three");
 let started = false; //function started ? no
 
 
+// window.onload = function ha() {
+
+//     window.scrollBy(100, 100);
+//     alert("pageXOffset: " + window.scrollX + ", scrollY: " + window.scrollY);
+// }
+
+
+
 window.onscroll = function () {
-    if (window.scrollY >= section.offsetTop) {
+    if (window.scrollY >= section.offsetTop) { // 1500>1300
+        // btebda 99 from the upper left corner of the window.
         if (!started) { //if true fut 3laya
             nums.forEach((num) => startCount(num));
         }
